@@ -42,3 +42,7 @@ goto line 427 and change from 'return ::DeleteFile((LPTSTR)lpFileName);' to 'ret
 #### Intel IPP 6.1.1.035
 We take Intel IPP 6.1.1.035, modify it and pack to archive.
 Run unpack_intel_ipp_6.1.1.035.cmd to unpack it.
+
+## YouTube audio search helper
+
+For quick YouTube searches that only feed audio into Winamp, a lightweight helper script is available in `tools/youtube_audio`. It uses the provided API key to discover videos, extracts the best audio-only stream via `yt_dlp`, and can emit an `.m3u` file that Winamp can open as a stream so video never appears. See `tools/youtube_audio/README.md` for installation and usage details.
