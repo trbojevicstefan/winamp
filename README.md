@@ -1,4 +1,4 @@
- # Winamp Stefan
+ # Winamp Stefans
 
 ## About
 
